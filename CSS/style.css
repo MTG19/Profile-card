@@ -1,0 +1,92 @@
+/* Reset default margin, padding, and set box-sizing to border-box for consistent layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body to center content and set a background image */
+body {
+    font-family: "PT Serif", serif; /* Set the font for the entire page */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    height: 100vh; /* Makes sure the body covers the full viewport height */
+    background-image: url('./517528.jpg'); /* Background image */
+    background-size: cover; /* Ensures the background fully covers the screen */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Fixes the background in place when scrolling */
+}
+
+/* Container for the card */
+.container {
+    width: 90%; /* Sets a responsive width for smaller screens */
+    max-width: 450px; /* Limits the maximum width for better design on large screens */
+    text-align: center; /* Centers text inside the container */
+}
+
+/* Styling for the main card */
+.card {
+    border: 1px solid #ccc; /* Adds a subtle border */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3); /* Soft shadow for a slight 3D effect */
+    border-radius: 10px; /* Rounds the corners */
+    background-color: whitesmoke; /* Light background color for contrast */
+    padding: 20px; /* Adds padding inside the card for better spacing */
+}
+
+/* Styling for the profile image inside the card */
+.image img {
+    width: 150px; /* Fixed width for the image */
+    height: 150px; /* Fixed height to maintain square shape */
+    object-fit: cover; /* Ensures the image fills the entire container without distortion */
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 20px; /* Adds some space above the image */
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Adds a subtle shadow around the image */
+}
+
+/* Background styling for the image section */
+.image {
+    border-radius: 10px; /* Slightly rounded edges */
+    background-color: rgb(3, 14, 66); /* Dark background for contrast */
+    box-shadow: 0 2px 5px rgb(3, 14, 66); /* Adds depth to the image container */
+}
+
+/* Text section styling */
+.text {
+    margin: 20px; /* Adds spacing around the text block */
+}
+
+/* Headings inside the text section */
+.text h1, .text h2 {
+    margin-bottom: 15px; /* Space between headings */
+}
+
+/* Icon styling inside the card */
+.icons img, .icons i, .icons span {
+    font-size: 30px; /* Standardized icon size */
+    width: 40px; /* Uniform width for icons */
+    height: 40px; /* Uniform height for icons */
+}
+
+/* Adds margin below the icons section */
+.icons {
+    margin-bottom: 20px;
+}
+
+/* Styling for the action button */
+.button button {
+    background-color: rgb(3, 14, 66); /* Primary button color */
+    width: 80%; /* Responsive button width */
+    height: 45px; /* Standard button height */
+    margin-bottom: 20px; /* Space below the button */
+    color: white; /* Text color inside the button */
+    border-radius: 10px; /* Rounded button edges */
+    font-size: larger; /* Increases font size */
+    box-shadow: 0 2px 5px rgb(3, 14, 66); /* Adds a shadow effect to the button */
+    transition: background-color 0.5s ease; /* Smooth color transition on hover */
+}
+
+/* Button hover effect */
+.button button:hover {
+    background-color: rgb(35, 61, 174); /* Slightly lighter blue when hovered */
+}
