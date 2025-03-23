@@ -13,13 +13,11 @@ This is a simple **Profile Card** built using **HTML and CSS**. The card display
 ## Usage  
 Simply open the `index.html` file in a browser to view the profile card.  
 
-## Preview  
-![Profile Card Preview](path/to/screenshot.png) 
-
 ## Customization  
 You can modify the `style.css` file to change colors, fonts, and layout to fit your needs.  
 
+## Preview  
+https://mtg19.github.io/Profile-card/
 
 ---
 
-انسخه والصقه في ملف **README.md**، وإذا كنت تحتاج إلى أي تعديلات أخرى، أخبرني بذلك! 🚀
